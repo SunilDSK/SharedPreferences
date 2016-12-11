@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 if(!em.isEmpty() && !pas.isEmpty())
                     work_with_sharedpreference(em,pas);
                 else
-                    Toast.makeText(getApplicationContext(),"Please make sure that you enter email and password worrectly!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Please make sure that you enter email and password correctly!",Toast.LENGTH_LONG).show();
             }
         });
 
